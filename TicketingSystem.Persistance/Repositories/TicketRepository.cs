@@ -9,5 +9,9 @@ namespace TicketingSystem.Persistance.Repositories
 {
     public class TicketRepository : ITicketRepository
     {
+        public string getTicket()
+        {
+            return "";
+        }
     }
 }

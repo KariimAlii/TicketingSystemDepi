@@ -8,6 +8,6 @@ namespace TicketingSystem.Application.Contracts.Persistance.Repositories
 {
     public interface ITicketRepository
     {
-
+        string getTicket();
     }
 }

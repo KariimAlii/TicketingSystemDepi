@@ -23,7 +23,7 @@ namespace TicketingSystem.Persistance.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("Server = KARIM-ALI\\MSSQLSERVER01; Database = TicketingSystem; Integrated Security = True; TrustServerCertificate = True;");
+                optionsBuilder.UseSqlServer("");
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
